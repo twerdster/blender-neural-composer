@@ -1,0 +1,62 @@
+{
+  "blender": "5.1.2",
+  "node_types": 29,
+  "examples": [
+    {
+      "name": "operator_demo.json",
+      "nodes": 13,
+      "links": 16,
+      "caffe_exported": true
+    },
+    {
+      "name": "patch_beltrami_base.json",
+      "nodes": 31,
+      "links": 42,
+      "caffe_exported": true
+    },
+    {
+      "name": "patch_beltrami_bw.json",
+      "nodes": 303,
+      "links": 442,
+      "caffe_exported": true
+    },
+    {
+      "name": "patch_beltrami_multifilter.json",
+      "nodes": 162,
+      "links": 235,
+      "caffe_exported": true
+    },
+    {
+      "name": "patch_beltrami_rgb.json",
+      "nodes": 96,
+      "links": 137,
+      "caffe_exported": true
+    },
+    {
+      "name": "patch_beltrami_single.json",
+      "nodes": 30,
+      "links": 43,
+      "caffe_exported": true
+    },
+    {
+      "name": "patch_beltrami_single_rgb.json",
+      "nodes": 38,
+      "links": 51,
+      "caffe_exported": true
+    }
+  ],
+  "checks": [
+    "editable typed RNA properties and inherited shared-weight settings",
+    "all recovered graphs roundtrip with exact properties, layouts, sockets and links",
+    "Caffe train/test/deploy/solver and quoted shell-script export; graph unchanged",
+    "cycle rejected",
+    "unconnected input rejected",
+    "unknown node import rejected without partial data",
+    "all 27 processing/loss nodes export independently; tiny learning rate preserved",
+    "every generated prototxt parsed by protoc against original Caffe fork schema",
+    "secondary deployment data outputs are declared; unsupported schedules fail without writes",
+    "quoted paths and shared names export with correct protobuf string values",
+    "duplicate links, invalid socket indices, missing node references and output-count mismatches rejected without partial imports",
+    "clean disable and re-enable"
+  ]
+}

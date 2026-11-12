@@ -1,0 +1,12 @@
+{
+  "blender": "5.2.4 LTS",
+  "source": "built release ZIP",
+  "fresh_isolated_addon_directory": true,
+  "install": true,
+  "enable": true,
+  "load_compact_demo": {
+    "nodes": 13,
+    "links": 16
+  },
+  "disable_after_removing_temporary_graph": true
+}
