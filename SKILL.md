@@ -28,3 +28,10 @@ in this package. The compact example is illustrative and untrained; preserve
 that label. Caffe graph export is separate from external runtime/training tests.
 Do not claim the intermediate recovered architectures equal final published
 checkpoint graphs. Maintain upstream H. Tomkins and Rom Hershkovitz attribution.
+
+## README presentation (2026-11-12)
+
+The README adds factual language, platform and existing-license badges while
+preserving the original demonstration figures and all runtime, reproduction,
+validation and attribution details. Keep badge claims aligned with these docs;
+a presentation-only update does not establish a new build or runtime result.

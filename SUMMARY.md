@@ -32,3 +32,10 @@ files, private backup paths, manuscript sources or machine-specific credentials.
 
 Root review reran the full5.2.4 suite with the original Caffe schema after
 whitespace normalization. Release asset size/hash are pinned in docs/release.json.
+
+## README presentation (2026-11-12)
+
+The README adds factual language, platform and existing-license badges while
+preserving the original demonstration figures and all runtime, reproduction,
+validation and attribution details. Keep badge claims aligned with these docs;
+a presentation-only update does not establish a new build or runtime result.

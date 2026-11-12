@@ -1,5 +1,9 @@
 # Blender Neural Composer
 
+[![Blender 5.2 LTS and 5.1](https://img.shields.io/badge/Blender-5.2%20LTS%20%7C%205.1-E87D0D?logo=blender&logoColor=white)](https://www.blender.org/download/)
+[![Blender add-on in Python](https://img.shields.io/badge/add--on-Python-3776AB?logo=python&logoColor=white)](neural_operator_blender)
+[![License: MIT and Unlicense](https://img.shields.io/badge/license-MIT%20%2B%20Unlicense-green)](NOTICE)
+
 ![A learned Beltrami operator composed in Blender 5.2 LTS](docs/composer-blender-5.2.png)
 
 Compose neural differential operators with Blender's node editor. This modern continuation of **Caffe-GUI-Tool** recovers the visual network designer used by Aaron Wetzler and Rom Hershkovitz for Deep Patch-Beltrami research.
