@@ -2,7 +2,7 @@
 bl_info = {
     'name': 'Neural Operator Composer',
     'author': 'Aaron Wetzler, Rom Hershkovitz; original Caffe GUI by H. Tomkins',
-    'version': (1, 0, 0),
+    'version': (1, 0, 1),
     'blender': (5, 1, 0),
     'location': 'Node Editor > Neural Operator Composer',
     'description': 'Compose neural differential operators and export Caffe computational graphs',

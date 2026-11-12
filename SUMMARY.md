@@ -1,11 +1,11 @@
 # Blender Neural Composer
 
-Modern standalone continuation of the thesis Caffe-GUI-Tool by H. Tomkins,
-Aaron Wetzler and Rom Hershkovitz. Six recovered research graphs are bundled
+Python add-on adapting Caffe-GUI-Tool, originally by H. Tomkins and extended
+by Aaron Wetzler and Rom Hershkovitz. Six recovered research graphs are bundled
 as sanitized JSON; their provenance/hashes and exact node/link counts are in
 docs/recovery.json. The old public repository is preserved separately.
 
-Version 1.0.0 supports 29 neural node types, current Blender RNA properties,
+The 1.0.0 implementation, retained in package 1.0.1, supports 29 neural node types, current Blender RNA properties,
 shared-weight settings, JSON import/export with saved-graph retention, graph validation, and Caffe
 train/test/deployment/solver/script export. It writes definitions and does
 not launch training. The illustrative compact operator has untrained weights.
@@ -33,9 +33,25 @@ files, private backup paths, manuscript sources or machine-specific credentials.
 Root review reran the full5.2.4 suite with the original Caffe schema after
 whitespace normalization. Release asset size/hash are pinned in docs/release.json.
 
-## README presentation (2026-11-12)
+## Maintainer documentation and package 1.0.1 — 2026-11-12
 
-The README adds factual language, platform and existing-license badges while
-preserving the original demonstration figures and all runtime, reproduction,
-validation and attribution details. Keep badge claims aligned with these docs;
-a presentation-only update does not establish a new build or runtime result.
+The README explains graph editing, JSON interchange and Caffe file export.
+The screenshot is the untrained 13-node/16-link architecture, not an executed
+denoising result. Detailed settings and background examples moved to
+`docs/USAGE.md`. The 114-file count is optional protobuf syntax checking,
+not numerical execution, shape validation or training. Original author and
+MIT/Unlicense boundaries remain explicit.
+
+Package 1.0.1 changes documentation, version metadata and the builder file
+allowlist. It includes the README-relative guides, evidence and actual UI
+image. All ten bundled documentation/license files were compared with source;
+the rebuilt ZIP was extracted into a task-isolated add-on directory and enabled
+in Blender 5.1.2. Its compact graph loaded with 13 nodes/16 links, then the
+temporary graph and add-on were removed. This is packaging/registration evidence;
+1.0.0 functional checks remain the source of the broader editor/export claims.
+`docs/installation-validation-1.0.1.json` records this distinction. The original
+release pin remains in `docs/release-1.0.0.json`; `docs/release.json` pins 1.0.1.
+
+Actual Claude reviews of the draft and substantial revision completed, with
+factual suggestions checked against JSON and source. No numerical operator,
+graph, coefficient, exporter behavior or original license was changed.

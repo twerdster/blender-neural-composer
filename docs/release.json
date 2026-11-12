@@ -1,7 +1,8 @@
 {
-  "tag": "v1.0.0",
-  "file": "blender-neural-composer-1.0.0.zip",
-  "bytes": 75484,
-  "sha256": "e2722b9bb5ca14e44afbd50e94ad672683c7e3a93f9cb344ee7db7b07619d064",
-  "url": "https://github.com/twerdster/blender-neural-composer/releases/download/v1.0.0/blender-neural-composer-1.0.0.zip"
+  "tag": "v1.0.1",
+  "file": "blender-neural-composer-1.0.1.zip",
+  "bytes": 291457,
+  "sha256": "17736ca53140a464fec70825dc551a7f60b707d127cdf46d462bb3d290bb19ce",
+  "url": "https://github.com/twerdster/blender-neural-composer/releases/download/v1.0.1/blender-neural-composer-1.0.1.zip",
+  "scope": "Documentation, version metadata and package file list; no numerical or editor behavior change."
 }

@@ -1,0 +1,11 @@
+{
+  "blender": "5.1.2",
+  "package_version": "1.0.1",
+  "source": "rebuilt ZIP extracted into task-isolated add-on directory",
+  "enabled_from_installed_package": true,
+  "demo_nodes": 13,
+  "demo_links": 16,
+  "readme_sha256": "6dace4f379a13aedff715471f1dbdc0de1e5d773318d484f554749d9913f7ea4",
+  "scope": "Package installation, bundled-file integrity and registration/demo loading; no Caffe numerical execution or training.",
+  "disabled_after_temporary_graph_removed": true
+}

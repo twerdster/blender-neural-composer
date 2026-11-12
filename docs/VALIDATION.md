@@ -24,3 +24,14 @@ blender --background --factory-startup --python-exit-code 1 \
 ```
 
 These checks validate the composer, data interchange and generated definitions. They do not run Caffe training or establish numerical parity for intermediate research architectures. Deployment input dimensions and dataset/executable paths are editable values. Final trained Deep Patch-Beltrami inference is validated separately in its own repository.
+
+## Documentation package 1.0.1
+
+The implementation checks above were recorded on 1.0.0. Version 1.0.1 changes
+prose, version metadata and the package file list. All ten bundled
+documentation/license files match source. A rebuilt ZIP was extracted into an
+isolated add-on directory, enabled with Blender 5.1.2, used to load the
+13-node/16-link demo, and disabled after removing that temporary graph.
+The [package check](https://github.com/twerdster/blender-neural-composer/blob/main/docs/installation-validation-1.0.1.json) is installation evidence,
+not a new Caffe execution, numerical-parity or training result. The current
+[release pin](https://github.com/twerdster/blender-neural-composer/blob/main/docs/release.json) and [original 1.0.0 pin](https://github.com/twerdster/blender-neural-composer/blob/main/docs/release-1.0.0.json) are separate.
