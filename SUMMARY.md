@@ -55,3 +55,18 @@ release pin remains in `docs/release-1.0.0.json`; `docs/release.json` pins 1.0.1
 Actual Claude reviews of the draft and substantial revision completed, with
 factual suggestions checked against JSON and source. No numerical operator,
 graph, coefficient, exporter behavior or original license was changed.
+
+## Modern update navigation — 2026-11-14
+
+The root README adds only a local New! badge and the
+“Updated and ported for modern hardware” link. The existing README body is
+retained; `updated/README.md` briefly identifies the retained implementation,
+new code, repairs and evidence, then links to the existing setup and results.
+Implementation paths, numerical results and published release assets are unchanged.
+The package builder also includes the new update guide and local badge in its
+existing documentation allowlist, preserving the installed README navigation.
+
+A private ZIP rebuild/extraction compared all 36 files with this checkout,
+including the README, update guide and badge. This was a documentation/package
+check; Blender was not launched and existing versioned release archives/pins
+remain unchanged.

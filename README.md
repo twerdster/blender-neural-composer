@@ -1,5 +1,7 @@
 # Blender Neural Composer
 
+[![New!](updated/assets/new-badge.svg)](updated/README.md#updated-and-ported-for-modern-hardware) **[Updated and ported for modern hardware](updated/README.md#updated-and-ported-for-modern-hardware)**
+
 [![Checked: Blender 5.2.4 LTS and 5.1.2](https://img.shields.io/badge/checked-5.2.4%20LTS%20%7C%205.1.2-E87D0D?logo=blender&logoColor=white)](docs/VALIDATION.md)
 [![Blender add-on in Python](https://img.shields.io/badge/add--on-Python-3776AB?logo=python&logoColor=white)](https://github.com/twerdster/blender-neural-composer/tree/main/neural_operator_blender)
 [![License: MIT and Unlicense](https://img.shields.io/badge/license-MIT%20%2B%20Unlicense-green)](NOTICE)

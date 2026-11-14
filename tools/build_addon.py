@@ -13,7 +13,8 @@ with zipfile.ZipFile(output, 'w', compression=zipfile.ZIP_DEFLATED) as archive:
         archive.write(ROOT / relative, 'neural_operator_blender/' + relative)
     # Keep README-relative guides, evidence and the real UI figure available
     # in the installed package; none of these files is executable content.
-    for relative in ['docs/USAGE.md', 'docs/VALIDATION.md',
+    for relative in ['updated/README.md', 'updated/assets/new-badge.svg',
+                     'docs/USAGE.md', 'docs/VALIDATION.md',
                      'docs/recovery.json', 'docs/validation-5.1.json',
                      'docs/validation-5.2.json', 'docs/composer-blender-5.2.png']:
         archive.write(ROOT / relative, 'neural_operator_blender/' + relative)

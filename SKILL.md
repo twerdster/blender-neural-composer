@@ -44,3 +44,16 @@ installed documentation with source. For substantial prose revisions, request
 an actual Claude review if directed, verify its factual suggestions and review
 the revision again. Never claim a review or runtime check that did not complete.
 Review and synchronize both context files before every commit.
+
+## Modern update navigation
+
+Keep the local New! badge and exact “Updated and ported for modern hardware”
+link immediately below the root README title. Put the brief change description
+and further update links in `updated/README.md` under the matching heading;
+retain the existing reference body and implementation paths. Check the badge,
+relative links and README body preservation after navigation-only changes.
+Do not reinterpret historical validation as a new runtime check.
+
+The add-on ZIP must include `updated/README.md` and `updated/assets/new-badge.svg`
+so the installed README navigation remains available. Keep those two explicit
+documentation entries in the package allowlist and verify their extracted bytes.
